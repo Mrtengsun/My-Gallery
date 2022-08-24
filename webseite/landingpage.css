@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -5,92 +7,90 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./images/ios.png);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
     text-align: center;
-    background-color: rgb(30, 153, 153);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
    
-    
 }
 main{
-    margin-top: 20.33%;
+    
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./images/ios.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
   
 }
-main .hidden{
-  
-    
-    
-    
-}
-h1:hover {
-    height: 170px;
-    width: 930px;
-    border: black 10px solid;
-    background-color: orangered;
-    
-
-}
-h1{
-    width: 100%;
+main a{
+    width: 100vw;
     height: 100%;
-    text-transform: capitalize;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
- 
-  
-}
-main button{
-    
-    height: 40px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow:0 0 15px;
-    border: rgb(12, 102, 102) solid 2px ;
-}
-main button a{
     text-decoration: none;
-  color:rgb(12, 102, 102);
 }
-main button i {
-   padding-left: 10px;
-   color:rgb(12, 102, 102);
+
+
+h1{
+  
+    text-transform: capitalize;
+    font-size: 4vw;
+ 
 }
- button:hover{
-   
-    background-color: rgb(12, 102, 102);
-   background-color: aqua;
+footer h1:hover{
+    transform: rotateX(360deg);
+    transition-duration: 3s;
+    
 }
+.arrow i{
+    text-decoration: none;
+    color: red;
+    font-size: 3rem;
+    
+}
+.arrow:hover i{
+    
+  transform: translateY(10%);
+  transition-duration: 1s;
+ 
+}
+/* @keyframes ttb{
+    0%{
+        
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+} */
+
 footer{
     color: rgb(178, 178, 178);
-    text-shadow: 0 0 15px ;
+    
+  
 }
-
+footer ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    gap: 1rem;
+}
+footer ul a{
+    color:red;
+    font-size: xx-large;
+    
+}
 @media screen and (min-width:1086px) {
 
-  body{
-        width: 80vw;
 
-        margin: auto;
-
-    }
 }
 @media  screen and (min-width:321 ) {
     body{
         width: 100vw;
         height: 100vh;
     }
-    .icon{
-        width: 50%;
+    main{
+  
     }
 }

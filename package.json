@@ -2,9 +2,10 @@
   "name": "mywebseite",
   "version": "1.0.0",
   "description": "webpages",
-  "main": "index.js",
   "scripts": {
-    "Start":"",
+    "Start": "",
+    "build": "",
+    "publish": ""
   },
   "author": "Teng Sun",
   "license": "ISC",
