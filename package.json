@@ -1,0 +1,11 @@
+{
+  "name": "mywebseite",
+  "version": "1.0.0",
+  "description": "webpages",
+  "main": "index.js",
+  "scripts": {
+    "compile":""
+  },
+  "author": "",
+  "license": "ISC"
+}

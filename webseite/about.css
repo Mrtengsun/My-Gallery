@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(./images/ios.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-color: rgb(30, 153, 153);
+   
+}
+header{
+    /* width: 100vw; */
+    /* height: 8%; */
+ /* background-color:rgb(163, 7, 7); */
+ /* display: flex;
+ justify-content: space-around; */
+}
+
+.ins{
+
+   
+    position: absolute;
+  left: 48%;
+  bottom: 20%;
+}
+.ins a{
+    color: wheat;
+    
+    text-decoration: none;
+}
+.ins i{
+    display: block;
+    margin-bottom: 10px;
+ padding: 10px;
+}
+header p {
+    color: white;
+    top:0;
+    left: 0;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 50px;
+
+}
+ul li {
+    
+    list-style: none;
+    
+}
+ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+ font-size: x-large;
+ /* color:black; */
+ font-weight: bolder;
+ padding: 10px;
+}
+a:hover {
+    border: rgb(125, 250, 179) 3px solid;
+  
+    cursor: pointer;
+    color: rgb(125, 250, 179);
+    text-shadow: 0 0 15px;
+    box-shadow: 0 0 15px;
+}
+main{
+    
+    margin: 20px;
+    
+    
+    
+}
+.icon:hover {
+   border: rgb(125, 250, 179) solid 5vw;
+ transform: scale(80%);
+  
+
+}
+main .images{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.icon{
+    margin: 2rem;
+    width: 40%;
+    
+    box-shadow: 0 0 45px;
+    border-radius: 50%;
+  
+    transition: 2s;
+    animation-name: cross-r;
+    animation-duration: 3s;
+    padding: 120px;
+  
+
+}
+.icon:nth-child(2){
+   
+    animation-name: cross-l;
+    animation-duration: 3s;
+}
+
+@keyframes cross-r{
+0%{
+    transform: rotate(0deg);
+  
+} 
+50%{
+    
+    transform: translateX(100%);
+    
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+@keyframes cross-l{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+   100%{
+        transform: rotate(-360deg);
+    }
+
+}
+
+main button{
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:0 0 15px;
+    border: rgb(12, 102, 102) solid 2px ;
+}
+main button a{
+    text-decoration: none;
+  color:rgb(12, 102, 102);
+}
+main button i {
+   padding-left: 10px;
+   color:rgb(12, 102, 102);
+}
+ button:hover{
+   
+    background-color: rgb(12, 102, 102);
+   background-color: aqua;
+}
+footer{
+    color: rgb(178, 178, 178);
+}
+
+@media screen and (min-width:1086px) {
+
+  header{
+        width: 80vw;
+
+        margin: auto;
+
+    }
+}
+@media  screen and (min-width:321 ) {
+    header{
+        width: 100vw;
+    }
+    .icon{
+        width: 50%;
+    }
+}

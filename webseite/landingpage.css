@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/ios.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(30, 153, 153);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+main{
+    margin-top: 20.33%;
+    
+  
+}
+main .hidden{
+  
+    
+    
+    
+}
+h1:hover {
+    height: 170px;
+    width: 930px;
+    border: black 10px solid;
+    background-color: orangered;
+    
+
+}
+h1{
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+ 
+  
+}
+main button{
+    
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:0 0 15px;
+    border: rgb(12, 102, 102) solid 2px ;
+}
+main button a{
+    text-decoration: none;
+  color:rgb(12, 102, 102);
+}
+main button i {
+   padding-left: 10px;
+   color:rgb(12, 102, 102);
+}
+ button:hover{
+   
+    background-color: rgb(12, 102, 102);
+   background-color: aqua;
+}
+footer{
+    color: rgb(178, 178, 178);
+    text-shadow: 0 0 15px ;
+}
+
+@media screen and (min-width:1086px) {
+
+  body{
+        width: 80vw;
+
+        margin: auto;
+
+    }
+}
+@media  screen and (min-width:321 ) {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .icon{
+        width: 50%;
+    }
+}
