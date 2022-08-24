@@ -4,8 +4,22 @@
   "description": "webpages",
   "main": "index.js",
   "scripts": {
-    "compile":""
+    "Start":"",
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Teng Sun",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrtengsun/My-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mrtengsun/My-portfolio/issues"
+  },
+  "homepage": "https://github.com/Mrtengsun/My-portfolio#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.5"
+  }
 }
