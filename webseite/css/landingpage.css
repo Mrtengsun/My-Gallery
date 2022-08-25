@@ -15,16 +15,15 @@ main{
     
     width: 100vw;
     height: 80vh;
-    background-image: url(./images/ios.png);
+    background-image: url(../images/ios.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     
-  
 }
 main a{
     width: 100vw;
-    height: 100%;
+    height: 80vh;
     text-decoration: none;
 }
 

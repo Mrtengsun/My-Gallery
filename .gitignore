@@ -4,5 +4,5 @@ package.json
 README.md
 random.html
 random.css
-images
-OR-images
+dist
+.parcel-cache

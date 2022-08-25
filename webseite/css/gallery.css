@@ -1,0 +1,252 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    list-style-type: none;
+}
+header ul a{
+    text-decoration: none;
+    font-size: x-large;
+    color: red;
+    /* color: rgb(178, 178, 178); */
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.image{
+    background-image: url(../OR-images/orientalrock-1.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+width: 18rem;
+     height: 18rem;
+     color: white;
+
+     display: flex;
+     align-items: flex-end;
+     overflow: hidden;
+     margin: 1rem;
+    }
+    .image:nth-child(2){
+        background-image: url(../OR-images/orientalrock-2.png);
+    }
+    .image:nth-child(3){
+        background-image: url(../OR-images/orientalrock-3.png);
+    }
+    .image:nth-child(4){
+        background-image: url(../OR-images/orientalrock-4.png);
+    }
+    .image:nth-child(5){
+        background-image: url(../OR-images/orientalrock-5.png);
+    }
+    .image:nth-child(6){
+        background-image: url(../OR-images/orientalrock-6.png);
+    }
+    .image:nth-child(7){
+        background-image: url(../OR-images/orientalrock-7.png);
+    }
+    .image:nth-child(8){
+        background-image: url(../OR-images/orientalrock-8.png);
+    }
+    .image:nth-child(9){
+        background-image: url(../OR-images/orientalrock-9.png);
+    }
+    .image:nth-child(10){
+        background-image: url(../OR-images/orientalrock-10.png);
+    }
+    .image:nth-child(11){
+        background-image: url(../OR-images/orientalrock-11.png);
+    }
+    .image:nth-child(12){
+        background-image: url(../OR-images/orientalrock-12.png);
+    }
+    .image:nth-child(13){
+        background-image: url(../OR-images/orientalrock-13.png);
+    }
+    .image:nth-child(14){
+        background-image: url(../OR-images/orientalrock-14.png);
+    }
+    .image:nth-child(13){
+        background-image: url(../OR-images/orientalrock-13.png);
+    }
+    .image:nth-child(14){
+        background-image: url(../OR-images/orientalrock-14.png);
+    } 
+    .image:nth-child(15){
+        background-image: url(../OR-images/orientalrock-15.png);
+    }
+    .image:nth-child(16){
+        background-image: url(../OR-images/orientalrock-16.png);
+    }
+    .image:nth-child(17){
+        background-image: url(../OR-images/orientalrock-17.png);
+    }
+    .image:nth-child(18){
+        background-image: url(../OR-images/orientalrock-18.png);
+    }
+    .image:nth-child(19){
+        background-image: url(../OR-images/orientalrock-19.png);
+    }
+    .image:nth-child(20){
+        background-image: url(../OR-images/orientalrock-20.png);
+    }
+    .image:nth-child(21){
+        background-image: url(../OR-images/orientalrock-21.png);
+    }
+    .image:nth-child(22){
+        background-image: url(../OR-images/orientalrock-22.png);
+    }
+    .image:nth-child(23){
+        background-image: url(../OR-images/orientalrock-23.png);
+    }
+    .image:nth-child(24){
+        background-image: url(../OR-images/orientalrock-24.png);
+    }
+    .image:nth-child(25){
+        background-image: url(../OR-images/orientalrock-25.png);
+    }
+    .image:nth-child(26){
+        background-image: url(../OR-images/orientalrock-26.png);
+    }
+    .image:nth-child(27){
+        background-image: url(../OR-images/orientalrock-27.png);
+    }
+    .image:nth-child(28){
+        background-image: url(../OR-images/orientalrock-28.png);
+    }
+    .image:nth-child(29){
+        background-image: url(../OR-images/orientalrock-29.png);
+    }
+    .image:nth-child(30){
+        background-image: url(../OR-images/orientalrock-30.png);
+    }
+    .image:nth-child(31){
+        background-image: url(../OR-images/orientalrock-31.png);
+    }
+    .image:nth-child(32){
+        background-image: url(../OR-images/orientalrock-32.png);
+    }
+
+    .title{
+        margin-bottom: 1rem;
+      transform: translateY(-1200%);
+ width: max-content;
+ margin: 0 auto;
+ 
+}
+.title a{
+        color: white;
+        text-decoration: none;
+
+
+    }
+
+ .title a:hover{
+    color: rgb(250, 165, 165);
+  
+ }
+    .title::after{
+       
+        content: "";
+        height: 3px;
+        background: red;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(-200%);
+        box-shadow: 0 0 10px red;
+    }
+    .image:hover .title::after{
+        transition: ease-in 1s;
+        transform: translate(0);
+        
+    }
+    
+    .item{
+    
+        padding:1rem;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color:rgba(0, 0, 0, 0.185);
+        transform: translateY(100%);
+        display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+      
+} 
+
+.button{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+ 
+}
+.image:hover {
+    border: rgb(255, 255, 255) 0.5rem solid;
+   
+    box-shadow: 0 0 20px rgb(78, 78, 78);
+    border-radius: 3rem;
+}
+.image:hover .item{
+    transform: translateY(0);
+    transition: ease-in 0.5s;
+}
+.image:hover .title{
+    transform: translateY(0);
+ 
+    transition: ease-in 0.5s;
+} 
+.button:hover{
+    background-color: white;
+    color: red;
+    border:solid 2px red;
+    box-shadow: 0 0 10px white;
+}
+
+.arrow i{
+    text-decoration: none;
+    color: red;
+    font-size: 3rem;
+    
+}
+.arrow:hover i{
+    
+  transform: translateY(10%);
+  transition-duration: 1s;
+ 
+}
+
+
+footer{
+    color: rgb(178, 178, 178);
+  text-align: center;  
+  
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    gap: 1rem;
+}
+footer ul a{
+    color:red;
+    font-size: xx-large;
+    
+}
