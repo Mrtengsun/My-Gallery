@@ -12,21 +12,56 @@ rel="stylesheet">
   </head>
   <body>
     <header>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">shop</a></li>
-      </ul>
+      <a class="logo" href="./mainpage.html"><img src="../images/signature.png" alt="" /></a>
+      <nav>
+        <ul class="nav-desk">
+          <li class="home"><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">shop</a></li>
+        </ul>
+
+        <div class="nav-bar">
+          <form class="search" action="">
+            <input type="text" placeholder="Search..." />
+            <a href="www.google.com">
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i></button
+            ></a>
+          </form>
+        </div>
+        <a href="#"><i class="cart fa-solid fa-cart-shopping"></i></a>
+        <div class="dropdown-li">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+          <ul class="dropdown">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">shop</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <section class="hero">     
-      <div class="card">
-        <img src="../images/ios.png" class="card-img" alt="...">
-        <div class="card-img-overlay">
-        
+      <div class="card ">
+        <img src="../images/ios.png" class="bg-img" alt="...">
         </div>
-      </div>
+       
+          <div class="text">
+            <p class="para">
+              <span>"OrientalRock"</span> is a series of oriental styles that are cool and rock.
+              <br> The series showcases oriental characters, oriental realness and oriental fashion with a historical point of view.
+              This collection is also an expression of oriental culture, self-confidence and self-awareness. It represents a world where domination politics, eurocentrism and racism do not exist. A world for all cultures, for acceptence, equality and diversity.
+             <br> "OrientalRock" was born in it's digital form, where I combined something new with something old. I introduced multiperiod styles to a contemporary digital world dominated by pixels. Like with history you can only fully observe the pieces of the collection from a distance, but are unable to see them clearly up close. They are the horizon, not the present.
+              <br> "OrientalRock" plays with stereotypes and representations of oriental characters from all eras, ethnicities, professions, religions, fashions, social status and genders. They can be facsinating to everyone and every culture.</p>
+          </div>
+
+        
+        
+       
+      
       </section>
     <main class="images">
        <div class="image">
@@ -224,7 +259,7 @@ rel="stylesheet">
     </main>
     <footer>
       <p>Find me here</p>
-      <ul>
+      <ul class="social">
         <li>
           <a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></i></a>
         </li>
