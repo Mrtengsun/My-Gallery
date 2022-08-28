@@ -132,6 +132,7 @@ position: relative;
 
 }
 
+
 span{
     font-size: 3vw;
     font-weight: 900;
@@ -160,6 +161,7 @@ span{
 }
 
 main{
+ 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -344,6 +346,7 @@ width: 18rem;
    
     box-shadow: 0 0 20px rgb(78, 78, 78);
     border-radius: 3rem;
+    cursor: pointer;
 }
 .image:hover .item{
     transform: translateY(0);
@@ -353,15 +356,17 @@ width: 18rem;
     transform: translateY(0);
  
     transition: ease-in 0.5s;
+    
 } 
 .button:hover{
     background-color: white;
     color: red;
     border:solid 2px red;
     box-shadow: 0 0 10px white;
+    
 }
 
-.arrow i{
+/* .arrow i{
     text-decoration: none;
     color: red;
     font-size: 3rem;
@@ -372,7 +377,7 @@ width: 18rem;
   transform: translateY(10%);
   transition-duration: 1s;
  
-}
+} */
 
 
 footer{
@@ -390,6 +395,7 @@ footer p{
 footer ul{
     display: flex;
     justify-content:center;
+    padding-left: 0;
   margin-bottom: 0;
     list-style-type: none;
     gap: 1rem;
