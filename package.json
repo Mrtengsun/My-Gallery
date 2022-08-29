@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "webpages",
   "scripts": {
-    "start": "parcel webseite/html/landingpage.html",
-    "build": "rm -rf dist && parcel build webseite/html/landingpage.html --public-url ./",
+    "start": "parcel webseite/html/index.html",
+    "build": "rm -rf dist && parcel build webseite/html/index.html --public-url ./",
     "publish": "gh-pages -d dist"
   },
   "author": "Teng Sun",

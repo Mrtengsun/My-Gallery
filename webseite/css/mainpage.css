@@ -263,7 +263,28 @@ footer a:hover{
   
 
 }
-
+@media screen and (max-width:800px){
+    .container{
+        padding: 1vw 0;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+    
+     .container .slide{
+         /* margin: 1rem; */
+     width: 80vw;
+        height: 100vw;
+     
+    }
+    hr{
+        display: none;
+    }
+   
+  
+}
 @media screen and (max-width: 480px) {
    header img{
     padding-left: 1vw;
@@ -297,7 +318,11 @@ footer a:hover{
      header ul{
        display: none;
      }
-  
+   
+      
+     
+
+     
 
 }
 @media screen and (max-width: 150px) {
