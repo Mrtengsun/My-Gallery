@@ -100,19 +100,14 @@ right:0;
 
 }
 .collection:hover .dropdown{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    left: -59%;
-    top: 150%;
-   position: absolute;
-   
-  
-    /* transform: translate(-22%); */
+    display: block;
+    width: 20px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
 }
-.collection{
-    position: relative;
-}
+
 header ul{
     width: 100%;
     margin-bottom:0;
@@ -183,7 +178,7 @@ main{
  
 }
 .image{
-    background-image: url(../OR-images/orientalrock-1.png);
+    background-image: url(../e-zo-images/Zodiac_GREEN_01_dragon\ 2.0.png);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,98 +192,76 @@ width: 18rem;
      margin: 1rem;
     }
     .image:nth-child(2){
-        background-image: url(../OR-images/orientalrock-2.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_02_snake\ green.png);
     }
     .image:nth-child(3){
-        background-image: url(../OR-images/orientalrock-3.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_03_buffalo\ green.png);
     }
     .image:nth-child(4){
-        background-image: url(../OR-images/orientalrock-4.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_04_mouse\ green.png);
     }
     .image:nth-child(5){
-        background-image: url(../OR-images/orientalrock-5.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_05_monkey\ green.png);
     }
     .image:nth-child(6){
-        background-image: url(../OR-images/orientalrock-6.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_06_rooster\ green.png);
     }
     .image:nth-child(7){
-        background-image: url(../OR-images/orientalrock-7.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_07_pig\ green.png);
     }
     .image:nth-child(8){
-        background-image: url(../OR-images/orientalrock-8.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_08_dog\ green.png);
     }
+
     .image:nth-child(9){
-        background-image: url(../OR-images/orientalrock-9.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_09_goat\ green.png);
     }
     .image:nth-child(10){
-        background-image: url(../OR-images/orientalrock-10.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_10_horse\ green.png);
     }
     .image:nth-child(11){
-        background-image: url(../OR-images/orientalrock-11.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_11_rabbit\ green.png);
     }
     .image:nth-child(12){
-        background-image: url(../OR-images/orientalrock-12.png);
+        background-image: url(../e-zo-images/Zodiac_GREEN_12_tiger\ green.png);
     }
     .image:nth-child(13){
-        background-image: url(../OR-images/orientalrock-13.png);
+        background-image: url(../w-zo-images/Zodaic_Aries.dark.png);
     }
     .image:nth-child(14){
-        background-image: url(../OR-images/orientalrock-14.png);
+        background-image: url(../w-zo-images/zodiac-scorpion.dark.png);
     } 
     .image:nth-child(15){
-        background-image: url(../OR-images/orientalrock-15.png);
+        background-image: url(../w-zo-images/zodiac\ cancer_dark.png);
     }
     .image:nth-child(16){
-        background-image: url(../OR-images/orientalrock-16.png);
+        background-image: url(../w-zo-images/Zodiac_Aquarius.dark.png);
     }
     .image:nth-child(17){
-        background-image: url(../OR-images/orientalrock-17.png);
+        background-image: url(../w-zo-images/Zodiac_Capricorn.dark.png);
     }
     .image:nth-child(18){
-        background-image: url(../OR-images/orientalrock-18.png);
+        background-image: url(../w-zo-images/Zodiac_Leo.\ dark.png);
     }
     .image:nth-child(19){
-        background-image: url(../OR-images/orientalrock-19.png);
+        background-image: url(../w-zo-images/Zodiac_Libra.dark.png);
     }
     .image:nth-child(20){
-        background-image: url(../OR-images/orientalrock-20.png);
+        background-image: url(../w-zo-images/Zodiac_Pisces.dark.png);
     }
     .image:nth-child(21){
-        background-image: url(../OR-images/orientalrock-21.png);
+        background-image: url(../w-zo-images/Zodiac_Sagittarius.dark.png);
     }
     .image:nth-child(22){
-        background-image: url(../OR-images/orientalrock-22.png);
+        background-image: url(../w-zo-images/Zodiac_Taurus.dark\ .png);
     }
     .image:nth-child(23){
-        background-image: url(../OR-images/orientalrock-23.png);
+        background-image: url(../w-zo-images/Zodiac_Twins.dark.png);
     }
     .image:nth-child(24){
-        background-image: url(../OR-images/orientalrock-24.png);
+        background-image: url(../w-zo-images/Zodiac_Virgo.dark\ V2.png);
     }
-    .image:nth-child(25){
-        background-image: url(../OR-images/orientalrock-25.png);
-    }
-    .image:nth-child(26){
-        background-image: url(../OR-images/orientalrock-26.png);
-    }
-    .image:nth-child(27){
-        background-image: url(../OR-images/orientalrock-27.png);
-    }
-    .image:nth-child(28){
-        background-image: url(../OR-images/orientalrock-28.png);
-    }
-    .image:nth-child(29){
-        background-image: url(../OR-images/orientalrock-29.png);
-    }
-    .image:nth-child(30){
-        background-image: url(../OR-images/orientalrock-30.png);
-    }
-    .image:nth-child(31){
-        background-image: url(../OR-images/orientalrock-31.png);
-    }
-    .image:nth-child(32){
-        background-image: url(../OR-images/orientalrock-32.png);
-    }
+ 
 
     .title{
         margin-bottom: 1rem;

@@ -120,12 +120,21 @@ header li:hover a{
    
    
 }
+
+main{
+   padding: 10%;
+   height: 85vh;
+}
+
+    
+
 footer{
     color: rgb(178, 178, 178);
   text-align: center;  
-  position: sticky;
+  width: 100%;
+  position: fixed;
   bottom: 0;
-  left: 0;
+  /* left: 0; */
   background-image: linear-gradient(to top,#d8e2dc,#d3d3d3,#f5f3f4);
  
 }

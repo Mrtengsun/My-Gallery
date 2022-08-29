@@ -118,12 +118,13 @@ header li:hover a{
 }
 .hero{
     width: 100vw;
-    height: max-content;
+    /* height: 100vh; */
    /* background-color: black; */
     /* overflow: hidden; */
     /* display: flex; */
 }
 .container{
+   padding: 2.9vw 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -151,6 +152,7 @@ width: 50rem;
     animation-name: or;
     animation-duration: 200s;
     animation-iteration-count: infinite;
+    
    
 }
 
