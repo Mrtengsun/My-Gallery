@@ -1,0 +1,497 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header{
+    background-color: rgb(234, 234, 234);
+    background-image: linear-gradient(to bottom,#d8e2dc,#d3d3d3,#f5f3f4);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+} */
+
+header{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(to bottom,#d8e2dc,#d3d3d3,#f5f3f4);
+   position: sticky;
+   top: 0;
+   padding: 0.5rem;
+   z-index: 99;
+ 
+}
+
+header img{
+    height: 2rem; 
+    padding-left: 1rem;
+}
+
+nav{
+   width: 100vw;
+    display: flex;
+    align-items: center;
+   
+
+}
+.nav-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+ 
+  
+   
+}
+
+.dropdown-li{
+    display: none;
+    position: relative;
+   padding-right: 4rem;
+}
+.cart{
+   
+    padding-right: 1rem;
+}
+nav i{
+    font-size: x-large;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+    
+}
+nav a:hover{
+    color: palevioletred;
+}
+.search{
+  display: flex;
+  background-color: red;
+  
+}
+form input{
+    border: none;
+}
+button{
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+.dropdown-li:hover .dropdown{
+    display: block;
+    width: fit-content;
+    background-color: rgb(195, 195, 195);
+    position: absolute;
+    text-align: center;
+    margin-right:4rem;
+right:0;
+
+}
+.dropdown{
+    display: none;
+    color: white;
+
+}
+.collection:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: -59%;
+    top: 150%;
+   position: absolute;
+   
+  
+    /* transform: translate(-22%); */
+}
+.collection{
+    position: relative;
+}
+header ul{
+    width: 100%;
+    margin-bottom:0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 4rem;
+    list-style-type: none;
+   
+}
+header .nav-desk a{
+    
+    text-decoration: none;
+    font-size: x-large;
+    color: red;
+   padding: 1rem;
+   border-top: red solid 2px;
+   
+    /* color: rgb(178, 178, 178); */
+}
+header li:hover a{
+    color: #f5f3f4;
+    background-color: red;
+   
+   
+}
+.hero{
+position: relative;
+
+
+}
+
+
+span{
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+}
+
+.para{
+    border: #000000 0.05vw solid;    
+    position: absolute;
+    top: 0;
+    background-color: #0000009b;
+    transform: translateX(-110%);
+    transition: ease-in 1s;
+    align-self: center;
+    color: #ffffff;
+    text-shadow: #000000 0 0 20px;
+    font-size:1.3vw;
+    font-weight: 600;
+    padding: 11.3vw;
+   
+  
+}
+.hero:hover .para{
+    transform: translateX(0);
+
+}
+
+main{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 1rem; */
+  /* background-image: linear-gradient(to top, red,orange,yellow,green,blue,indigo,violet); */
+ 
+}
+.image{
+    background-image: url(../OR-images/orientalrock-1.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+width: 18rem;
+     height: 18rem;
+     color: white;
+
+     display: flex;
+     align-items: flex-end;
+     overflow: hidden;
+     margin: 1rem;
+    }
+    .image:nth-child(2){
+        background-image: url(../OR-images/orientalrock-2.png);
+    }
+    .image:nth-child(3){
+        background-image: url(../OR-images/orientalrock-3.png);
+    }
+    .image:nth-child(4){
+        background-image: url(../OR-images/orientalrock-4.png);
+    }
+    .image:nth-child(5){
+        background-image: url(../OR-images/orientalrock-5.png);
+    }
+    .image:nth-child(6){
+        background-image: url(../OR-images/orientalrock-6.png);
+    }
+    .image:nth-child(7){
+        background-image: url(../OR-images/orientalrock-7.png);
+    }
+    .image:nth-child(8){
+        background-image: url(../OR-images/orientalrock-8.png);
+    }
+    .image:nth-child(9){
+        background-image: url(../OR-images/orientalrock-9.png);
+    }
+    .image:nth-child(10){
+        background-image: url(../OR-images/orientalrock-10.png);
+    }
+    .image:nth-child(11){
+        background-image: url(../OR-images/orientalrock-11.png);
+    }
+    .image:nth-child(12){
+        background-image: url(../OR-images/orientalrock-12.png);
+    }
+    .image:nth-child(13){
+        background-image: url(../OR-images/orientalrock-13.png);
+    }
+    .image:nth-child(14){
+        background-image: url(../OR-images/orientalrock-14.png);
+    } 
+    .image:nth-child(15){
+        background-image: url(../OR-images/orientalrock-15.png);
+    }
+    .image:nth-child(16){
+        background-image: url(../OR-images/orientalrock-16.png);
+    }
+    .image:nth-child(17){
+        background-image: url(../OR-images/orientalrock-17.png);
+    }
+    .image:nth-child(18){
+        background-image: url(../OR-images/orientalrock-18.png);
+    }
+    .image:nth-child(19){
+        background-image: url(../OR-images/orientalrock-19.png);
+    }
+    .image:nth-child(20){
+        background-image: url(../OR-images/orientalrock-20.png);
+    }
+    .image:nth-child(21){
+        background-image: url(../OR-images/orientalrock-21.png);
+    }
+    .image:nth-child(22){
+        background-image: url(../OR-images/orientalrock-22.png);
+    }
+    .image:nth-child(23){
+        background-image: url(../OR-images/orientalrock-23.png);
+    }
+    .image:nth-child(24){
+        background-image: url(../OR-images/orientalrock-24.png);
+    }
+    .image:nth-child(25){
+        background-image: url(../OR-images/orientalrock-25.png);
+    }
+    .image:nth-child(26){
+        background-image: url(../OR-images/orientalrock-26.png);
+    }
+    .image:nth-child(27){
+        background-image: url(../OR-images/orientalrock-27.png);
+    }
+    .image:nth-child(28){
+        background-image: url(../OR-images/orientalrock-28.png);
+    }
+    .image:nth-child(29){
+        background-image: url(../OR-images/orientalrock-29.png);
+    }
+    .image:nth-child(30){
+        background-image: url(../OR-images/orientalrock-30.png);
+    }
+    .image:nth-child(31){
+        background-image: url(../OR-images/orientalrock-31.png);
+    }
+    .image:nth-child(32){
+        background-image: url(../OR-images/orientalrock-32.png);
+    }
+
+    .title{
+        margin-bottom: 1rem;
+      transform: translateY(-1300%);
+ width: max-content;
+ margin: 0 auto;
+ 
+}
+.title a{
+        color: white;
+        text-decoration: none;
+
+
+    }
+
+ .title a:hover{
+    color: rgb(250, 165, 165);
+  
+ }
+    .title::after{
+       
+        content: "";
+        height: 3px;
+        background: red;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(-200%);
+        box-shadow: 0 0 10px red;
+    }
+    .image:hover .title::after{
+        transition: ease-in 1s;
+        transform: translate(0);
+        
+    }
+    
+    .item{
+    
+        padding:1rem;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color:rgba(0, 0, 0, 0.185);
+        transform: translateY(100%);
+        display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+      
+} 
+
+.button{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+ 
+}
+.image:hover {
+    border: rgb(255, 255, 255) 0.5rem solid;
+   
+    box-shadow: 0 0 20px rgb(78, 78, 78);
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.image:hover .item{
+    transform: translateY(0);
+    transition: ease-in 0.5s;
+}
+.image:hover .title{
+    transform: translateY(0);
+ 
+    transition: ease-in 0.5s;
+    
+} 
+.button:hover{
+    background-color: white;
+    color: red;
+    border:solid 2px red;
+    box-shadow: 0 0 10px white;
+    
+}
+
+/* .arrow i{
+    text-decoration: none;
+    color: red;
+    font-size: 3rem;
+    
+}
+.arrow:hover i{
+    
+  transform: translateY(10%);
+  transition-duration: 1s;
+ 
+} */
+
+
+footer{
+    color: rgb(178, 178, 178);
+  text-align: center;  
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to top,#d8e2dc,#d3d3d3,#f5f3f4);
+ 
+}
+footer p{
+    margin-bottom: 0;
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+    padding-left: 0;
+  margin-bottom: 0;
+    list-style-type: none;
+    gap: 1rem;
+}
+footer ul a{
+    color:red;
+    font-size: xx-large;
+    
+}
+footer a:hover{
+    color: palevioletred;
+}
+
+@media screen and (max-width: 1200px) {
+ 
+
+   
+    .dropdown-li{
+        display: inline-block;
+     
+    }
+   
+    nav{
+        width: 100vw;
+         display: flex;
+         
+         
+     }
+     .nav-bar{
+     
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 3rem;
+        
+     }
+  
+     .search{
+       
+   
+     
+     }
+     header ul{
+       display: none;
+     }
+  
+
+}
+
+@media screen and (max-width: 480px) {
+   header img{
+    padding-left: 1vw;
+   }
+    .dropdown-li{
+        display: inline-block;
+        padding: 1vw;
+
+    }
+   .cart{
+    padding-left: 1vw;
+   }
+    nav{
+        width: 100vw;
+         display: flex;
+         
+         
+     }
+     .nav-bar{
+     
+        display: flex;
+        justify-content: flex-end;
+        padding: 1vw;
+     }
+  
+     .search{
+       
+       display: none;
+     
+     }
+     header ul{
+       display: none;
+     }
+  
+
+}
+@media screen and (max-width: 150px) {
+    header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    }
+}

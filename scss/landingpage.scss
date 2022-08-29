@@ -1,0 +1,78 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+main {
+  width: 100vw;
+  height: 80vh;
+  background-image: url(../images/ios.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main a {
+  width: 100vw;
+  height: 80vh;
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 4vw;
+}
+footer h1:hover {
+  transform: rotateX(360deg);
+  transition-duration: 3s;
+}
+.arrow i {
+  text-decoration: none;
+  color: red;
+  font-size: 3rem;
+}
+.arrow:hover i {
+  transform: translateY(10%);
+  transition-duration: 1s;
+}
+/* @keyframes ttb{
+    0%{
+        
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+} */
+
+footer {
+  color: rgb(178, 178, 178);
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 1rem;
+}
+footer ul a {
+  color: red;
+  font-size: xx-large;
+}
+@media screen and (min-width: 1086px) {
+}
+@media screen and (min-width: 321) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  main {
+  }
+}
